@@ -1,11 +1,8 @@
 <?php
 
-include ('classes/Numeros.class.php');
-include ('classes/Unidade.class.php');
-include ('classes/Dezena.class.php');
-include ('classes/Centena.class.php');
+include ('classes/Numeros.php');
 
-$unidade = new Numeros(filter_input(INPUT_POST, 'valor', FILTER_SANITIZE_NUMBER_INT));
+$n = new Numeros(filter_input(INPUT_POST, 'valor', FILTER_SANITIZE_NUMBER_INT));
 
 header('Content-Type: application/json');
-echo (ucfirst($unidade->getString()) . '.');
+echo (ucfirst($n->porExtenso()) . '.');
