@@ -6,20 +6,22 @@
  * 
  * @author Alan Freire - alan_freire@msn.com
  * @version 2.0
- * @copyright GPL © 2016 - Alan Freire
+ * @copyright MIT © 2016 - Alan Freire
  */
 class Numeros
 {
 	/**
 	 * @var integer
-	 * 
+	 * @access private
+	 *
 	 * Número que será escrito por extenso
 	 */
 	private $numero;
 
 	/**
 	 * @var array
-	 * 
+	 * @access private
+	 *  
 	 * Número separado por algarismos
 	 */
 	private $sequencia = array();
@@ -39,6 +41,7 @@ class Numeros
 
 	/**
 	 * Method getNumero
+	 * @access public
 	 * 
 	 * Retorna o número inserido
 	 * 
@@ -51,7 +54,8 @@ class Numeros
 
 	/**
 	 * Method setNumero
-	 * 
+	 * @access public
+	 *
 	 * Atribui um número para ser escrito por extenso
 	 * 
 	 * @param integer

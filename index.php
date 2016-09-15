@@ -1,3 +1,11 @@
+<!--
+Página desenvolvida para uso da classe Numeros em php
+que pega algarismos e os escreve por extenso em portugues
+
+@author Alan Freire - alan_freire@msn.com
+@version 2.0
+@copyright MIT © 2016
+-->
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
